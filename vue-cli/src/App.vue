@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png"><br>
-    <router-link to="/home" tag="button">主页</router-link>
-    <router-link to="/student" tag="button">学生页面</router-link>
+    <el-link type="primary" href="#/home">主页</el-link>
+<!--    <router-link to="/home" tag="button">主页</router-link>-->
+<!--    <router-link to="/student" tag="button">学生页面</router-link>-->
+    <el-link type="primary" href="#/student">学生页面</el-link>
     <router-view/>
   </div>
 </template>
